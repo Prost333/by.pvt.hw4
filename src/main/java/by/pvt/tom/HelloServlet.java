@@ -12,9 +12,6 @@ public class HelloServlet extends GenericServlet {
 
     @Override
     public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
-        servletResponse.setContentType("application/json");
-        PrintWriter pw=servletResponse.getWriter();
-        pw.print("I like java");
-        pw.close();
+
     }
 }
